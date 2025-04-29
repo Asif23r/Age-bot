@@ -7,9 +7,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = user.id
     keyboard = [
         [InlineKeyboardButton("Join Channel 🔔", url=CHANNEL_LINK)],
-        [InlineKeyboardButton("Contact Developer 💬", url="https://t.me/yourusername"),
-         InlineKeyboardButton("Friend's GC 💌", url="https://t.me/yourgroup")],
-        [InlineKeyboardButton("Notes Bot 📝", url="https://t.me/notes_bot_link")]
+        [InlineKeyboardButton("Contact Developer 💬", url="https://t.me/the_bot_developer"),
+         InlineKeyboardButton("Friend's GC 💌", url="https://t.me/friends_chat_gc")],
+        [InlineKeyboardButton("Notes Bot 📝", url="@Notes_by_mission_bot")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
 
