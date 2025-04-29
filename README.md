@@ -9,8 +9,9 @@ A simple modular Telegram bot using python-telegram-bot v20+.
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/CalculatorBot.git
+git clone https://github.com/Asif23r/CalculatorBot.git
 cd CalculatorBot
 pip install -r requirements.txt
+nano config.py
 python main.py
 ```
